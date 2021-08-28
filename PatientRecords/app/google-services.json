@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "530627374166",
+    "project_id": "patientrecords-e3159",
+    "storage_bucket": "patientrecords-e3159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530627374166:android:d57b30c415e9fb8d151ff7",
+        "android_client_info": {
+          "package_name": "com.example.patientrecords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530627374166-gksjup8dhh19qn4o9spnu2l5000pgm4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4UGcwmf8lDzr5MgY8TYAoapHSc4MzUio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530627374166-gksjup8dhh19qn4o9spnu2l5000pgm4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

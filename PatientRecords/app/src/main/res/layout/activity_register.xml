@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Register Vaccination" android:gravity="center" android:textColor="#000" android:textSize="25sp" android:layout_gravity="center"></TextView>
+
+    </LinearLayout>
+
+        <Spinner
+            android:id="@+id/vaccine_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/first"
+            android:drawablePadding="10dp"
+            android:padding="15dp"
+            android:layout_margin="10dp"/>
+
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/first"
+
+        android:drawablePadding="10dp"
+        android:hint="Phone"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textColorHighlight="@color/white"/>
+
+
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="15dp"
+        android:background="@drawable/first"
+
+        android:drawablePadding="10dp"
+        android:hint="Full name"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textColorHighlight="#000"/>
+
+        <EditText
+            android:id="@+id/cur_didtrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/first"
+
+            android:drawablePadding="10dp"
+            android:hint="Current district"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textColorHighlight="#000"/>
+
+
+
+
+        <EditText
+            android:id="@+id/occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/first"
+
+            android:drawablePadding="10dp"
+            android:hint="Occupation"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textColorHighlight="#000"/>
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:background="@drawable/first"
+
+            android:drawablePadding="10dp"
+            android:hint="Age"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textColorHighlight="#000"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        android:onClick="submit"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapesignin"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

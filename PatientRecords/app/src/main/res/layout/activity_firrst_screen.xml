@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Welcome Doctor" android:gravity="center" android:textColor="#000" android:textSize="25sp" android:layout_gravity="center"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <View android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/square"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"> </View>
+
+        <View android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/square"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"> </View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <View android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/square"
+            android:layout_margin="10dp"> </View>
+
+        <View android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/square"
+            android:layout_margin="10dp"> </View>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD PATIENT"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        android:onClick="addPatient"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapesignin"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH PATIENTS"
+        android:shadowColor="@android:color/transparent"
+        android:padding="15dp"
+        android:onClick="Searchclick"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/shapesignin"/>
+
+
+</LinearLayout>
